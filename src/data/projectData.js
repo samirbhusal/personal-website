@@ -4,7 +4,7 @@ export const projectsData = [
     description:
       "Developed a RAG chatbot for intelligent incident query resolution using internal documents.",
     tags: ["Python", "LangChain", "Streamlit", "OpenAI", "RAG", "AI / LLM"],
-    github: "https://github.com/yourusername/rag-helpdesk-chatbot",
+    github: "https://github.com/samirbhusal/ask-the-doc-app",
     demo: "", // leave empty if no demo
     linkName: "View on GitHub",
   },
@@ -13,7 +13,7 @@ export const projectsData = [
     description:
       "Developed a scalable Python Behave + Selenium POM framework with multi-browser & environment-driven execution",
     tags: ["Python", "Selenium", "Behave", "Cucumber", "Page Object Model"],
-    github: "https://github.com/yourusername/automation-framework",
+    github: "https://github.com/samirbhusal/python-bdd-framework",
     demo: "",
     linkName: "View on GitHub",
   },
