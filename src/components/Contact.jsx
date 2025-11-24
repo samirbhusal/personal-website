@@ -30,7 +30,7 @@ export default function Contact() {
         <div className="contact-item">
           <span className="contact-icon">🐙</span>
           <a
-            href="https://github.comhttps://github.com/samirbhusal"
+            href="https://github.com/samirbhusal"
             target="_blank"
             rel="noopener noreferrer"
           >
