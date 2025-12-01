@@ -192,19 +192,3 @@ footer {
   margin-top: 6px;
   padding-left: 20px;
 }
-
-.download-btn {
-  background: #007bff;
-  color: white;
-  padding: 14px 30px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.2s;
-}
-
-.download-btn:hover {
-  background: #005fcc;
-  transform: translateY(-2px);
-}
