@@ -18,7 +18,7 @@ export const projectsData = [
     linkName: "View on GitHub",
   },
   {
-    title: "geFont",
+    title: "Meri Sangini",
     description:
       "Freelance mobile app for Nepal CRS Company with features like User Authentications, Auto Slide Carousel Card, Navigation (Stack, Bottom and Side Menu, Horizontal Sliding Menu), and Integrated Location Features for Nearby Shops.",
     tags: ["React Native"],
@@ -28,7 +28,7 @@ export const projectsData = [
     linkName: "Google Play Store",
   },
   {
-    title: "Meri Sangini",
+    title: "geFont Mobile App",
     description:
       "Freelance Project for GEFONT with features like User authentication (login, signup, and forgot password), tab and stack navigation, horizontal sliding menu, API integration to fetch News and Updates",
     tags: ["React Native"],
