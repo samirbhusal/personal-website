@@ -5,8 +5,7 @@ export default function Hero() {
         Hello, I'm <span>Samir Bhusal</span> 👋
       </h1>
       <h3 className="hero-subtitle">
-        Software Engineer | QA Engineer for US healthcare platforms | Front End
-        Developer
+        SDET & QA Automation Engineer || React & AI Enthusiast
       </h3>
       <p>
         QA Automation Engineer with hands-on experience improving the quality of
