@@ -2,10 +2,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <h1>
-        Hello, I'm <span>Samir</span> 👋
+        Hello, I'm <span>Samir Bhusal</span> 👋
       </h1>
       <h3 className="hero-subtitle">
-        Software Engineer | Worked as QA Engineer for US healthcare platforms
+        Software Engineer | QA Engineer for US healthcare platforms | Front End
+        Developer
       </h3>
       <p>
         QA Automation Engineer with hands-on experience improving the quality of

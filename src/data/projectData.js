@@ -27,7 +27,7 @@ export const projectsData = [
   {
     title: "CV App (React)",
     description:
-      "Developed a responsive memory game using React and TypeScript, leveraging Axios interceptors to manage asynchronous data fetching from the PokéAPI.",
+      "Developed a dynamic single-page application using React and TypeScript to create professional resumes through a modular, section-based interface.",
     tags: ["React.js", "Vite", "React Hooks", "TypeScript", "GitHub Pages"],
     github: "https://github.com/samirbhusal/cv-app",
     demo: "https://samirbhusal.github.io/cv-app/",
