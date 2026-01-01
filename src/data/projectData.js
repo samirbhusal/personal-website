@@ -9,6 +9,31 @@ export const projectsData = [
     linkName: "View on GitHub",
   },
   {
+    title: "Memory Card Game (React)",
+    description:
+      "Developed a responsive memory game using React and TypeScript, leveraging Axios interceptors to manage asynchronous data fetching from the PokéAPI.",
+    tags: [
+      "React.js",
+      "Vite",
+      "Axios",
+      "React Hooks",
+      "TypeScript",
+      "GitHub Pages",
+    ],
+    github: "https://github.com/samirbhusal/card-game",
+    demo: "https://samirbhusal.github.io/card-game/",
+    linkName: "View on GitHub",
+  },
+  {
+    title: "CV App (React)",
+    description:
+      "Developed a responsive memory game using React and TypeScript, leveraging Axios interceptors to manage asynchronous data fetching from the PokéAPI.",
+    tags: ["React.js", "Vite", "React Hooks", "TypeScript", "GitHub Pages"],
+    github: "https://github.com/samirbhusal/cv-app",
+    demo: "https://samirbhusal.github.io/cv-app/",
+    linkName: "View on GitHub",
+  },
+  {
     title: "Python-BDD-Automation Framework",
     description:
       "Developed a scalable Python Behave + Selenium POM framework with multi-browser & environment-driven execution",

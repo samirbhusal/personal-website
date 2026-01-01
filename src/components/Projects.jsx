@@ -25,6 +25,16 @@ export default function Projects() {
                   {proj.linkName ? proj.linkName : "View on GitHub"}
                 </a>
               )}
+              {proj.demo && (
+                <a
+                  href={proj.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  Live Demo
+                </a>
+              )}
             </div>
           </div>
         ))}
