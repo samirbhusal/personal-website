@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -16,9 +18,9 @@ export default function Hero() {
         production bugs, and maintain healthcare-grade reliability.
       </p>
 
-      <a href="#projects" className="btn-primary">
+      <NavLink to="/projects" className="btn-primary">
         View My Work
-      </a>
+      </NavLink>
     </section>
   );
 }
