@@ -7,12 +7,13 @@ import Contact from "./components/Contact";
 export default function App() {
   return (
     <>
+      
       <Navbar />
       <Hero />
       <Projects />
       <Contact />
 
-      <footer>© 2025 Samir — Built with ❤️ using React & Vite</footer>
+      
     </>
   );
 }

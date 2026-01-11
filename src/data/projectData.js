@@ -1,10 +1,19 @@
 export const projectsData = [
   {
-    title: "RAG LLM Chatbot",
+    title: "Full Stack RAG Chatbot",
     description:
       "Developed a RAG chatbot for intelligent incident query resolution using internal documents.",
-    tags: ["Python", "LangChain", "Streamlit", "OpenAI", "RAG", "AI / LLM"],
-    github: "https://github.com/samirbhusal/ask-the-doc-app",
+    tags: [
+      "React (Vite)",
+      "Python",
+      "LangChain",
+      "FastAPI",
+      "OpenAI GPT-4o",
+      "TypeScript",
+      "OpenAI Embeddings",
+      "ChromaDB (Vector Store)",
+    ],
+    github: "https://github.com/samirbhusal/fullstack-rag-app",
     demo: "", // leave empty if no demo
     linkName: "View on GitHub",
   },
