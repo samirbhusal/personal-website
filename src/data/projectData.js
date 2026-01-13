@@ -18,6 +18,24 @@ export const projectsData = [
     linkName: "View on GitHub",
   },
   {
+    title: "Figma Design: RAG Chatbot",
+    description:
+      "Designed an interactive Figma prototype (“Helpdesk RAG Assistant”) showcasing an AI-powered incident resolution system.",
+    tags: [
+      "UX/UI Design",
+      "Wireframing",
+      "Prototyping",
+      "Interaction Design",
+      "Smart Animate",
+      "AI Product Design",
+      "User Flows",
+      "Dashboard Visualization",
+    ],
+    github: "",
+    demo: "https://www.figma.com/proto/DajbEdA4LrAnEgDMGMzgIb/RAG_Incident_Assistant_Wireframe_Main?page-id=4%3A19&node-id=4-20&starting-point-node-id=4%3A20&scaling=min-zoom&content-scaling=fixed&t=ujVnkGFwmDa6Smwg-1", // leave empty if no demo
+    linkName: "View on GitHub",
+  },
+  {
     title: "Memory Card Game (React)",
     description:
       "Developed a responsive memory game using React and TypeScript, leveraging Axios interceptors to manage asynchronous data fetching from the PokéAPI.",
