@@ -18,6 +18,15 @@ export const projectsData = [
     linkName: "View on GitHub",
   },
   {
+    title: "Python-BDD-Automation Framework",
+    description:
+      "Developed a scalable Python Behave + Selenium POM framework with multi-browser & environment-driven execution",
+    tags: ["Python", "Selenium", "Behave", "Cucumber", "Page Object Model"],
+    github: "https://github.com/samirbhusal/python-bdd-framework",
+    demo: "",
+    linkName: "View on GitHub",
+  },
+  {
     title: "Figma Design: RAG Chatbot",
     description:
       "Designed an interactive Figma prototype (“Helpdesk RAG Assistant”) showcasing an AI-powered incident resolution system.",
@@ -60,15 +69,7 @@ export const projectsData = [
     demo: "https://samirbhusal.github.io/cv-app/",
     linkName: "View on GitHub",
   },
-  {
-    title: "Python-BDD-Automation Framework",
-    description:
-      "Developed a scalable Python Behave + Selenium POM framework with multi-browser & environment-driven execution",
-    tags: ["Python", "Selenium", "Behave", "Cucumber", "Page Object Model"],
-    github: "https://github.com/samirbhusal/python-bdd-framework",
-    demo: "",
-    linkName: "View on GitHub",
-  },
+
   {
     title: "Meri Sangini",
     description:
