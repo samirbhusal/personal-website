@@ -1,43 +1,16 @@
-# Personal Portfolio – Samir Bhusal
+# React + Vite
 
-A modern, responsive portfolio website built with **React + Vite**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This site highlights my automation projects, QA experience with U.S. healthcare platforms (Higi, InStride Health), education, technical skills, and downloadable resume. Designed to be clean, fast, and easy to navigate.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## React Compiler
 
-### ⭐ Modern UI
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Clean hero section focused on QA Automation engineering
-- Projects grid with clear descriptions
-- Modern contact section with icons and links
+## Expanding the ESLint configuration
 
-### ⭐ Technical
-
-- Built using **React + Vite**
-- Fully responsive layout
-- Custom components and clean CSS
-- PDF resume download + view
-- Simple and optimized project structure
-
----
-
-## 🧩 Tech Stack
-
-**Frontend:**
-
-- React
-- Vite
-- JavaScript
-- CSS
-
-**Tools & Integrations:**
-
-- Git & GitHub
-- VS Code
-- PDF download support
-- Custom domain support
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

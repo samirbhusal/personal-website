@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samir Bhusal – Resume</title>
+  <style>
+    /* ── ATS-safe print styles ───────────────────────────────────── */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #111;
+      background: #fff;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 48px;
+    }
+
+    /* ── Header ────────────────────────────────── */
+    .resume-header { text-align: center; margin-bottom: 18px; }
+    .resume-header h1 {
+      font-size: 24pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #111;
+      margin-bottom: 6px;
+    }
+    .contact-row {
+      font-size: 10pt;
+      color: #333;
+    }
+    .contact-row a { color: #0066cc; text-decoration: none; }
+
+    /* ── Section ────────────────────────────────── */
+    .section { margin-top: 18px; }
+
+    .section-title {
+      font-size: 12pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1.5px solid #111;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+    /* ── Entry ────────────────────────────────── */
+    .entry { margin-bottom: 12px; }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .entry-title   { font-weight: 700; font-size: 11pt; }
+    .entry-company { font-weight: 600; }
+    .entry-date    { font-size: 10pt; color: #333; white-space: nowrap; }
+    .entry-sub     { font-size: 10pt; color: #333; font-style: italic; }
+
+    ul {
+      margin: 6px 0 0 18px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 4px;
+      font-size: 10.5pt;
+      color: #222;
+    }
+
+    /* ── Skills table ────────────────────────────── */
+    .skills-table { width: 100%; border-collapse: collapse; }
+    .skills-table td {
+      vertical-align: top;
+      padding: 3px 0;
+      font-size: 10.5pt;
+    }
+    .skills-table td:first-child {
+      font-weight: 700;
+      width: 180px;
+      color: #111;
+    }
+
+    /* ── Projects ─────────────────────────────── */
+    .project-tech {
+      font-size: 10pt;
+      color: #333;
+      font-style: italic;
+    }
+
+    /* ── Print ────────────────────────────────── */
+    @media print {
+      body { padding: 24px 32px; }
+      a { color: #111 !important; text-decoration: none !important; }
+      .no-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Print / Download bar (hidden on print) ───────────── -->
+  <div class="no-print" style="
+    background:#1a1a2e; color:#fff; padding:10px 20px;
+    display:flex; justify-content:space-between; align-items:center;
+    font-family:Arial,sans-serif; font-size:13px;
+    position:sticky; top:0; z-index:100; margin-bottom:24px;
+    border-radius:0 0 8px 8px;
+  ">
+    <span>📄 Samir Bhusal — ATS-Optimized Resume</span>
+    <button onclick="window.print()" style="
+      background:#00d4ff; color:#000; border:none;
+      padding:8px 20px; border-radius:6px; font-weight:700;
+      cursor:pointer; font-size:13px;
+    ">⬇ Save as PDF</button>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- HEADER                                                 -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="resume-header">
+    <h1>Samir Bhusal</h1>
+    <div class="contact-row">
+      Madison, SD &nbsp;|&nbsp;
+      <a href="mailto:samir.masterprep@gmail.com">samir.masterprep@gmail.com</a> &nbsp;|&nbsp;
+      <a href="https://linkedin.com/in/samirbhusal" target="_blank">linkedin.com/in/samirbhusal</a> &nbsp;|&nbsp;
+      <a href="https://github.com/samirbhusal" target="_blank">github.com/samirbhusal</a> &nbsp;|&nbsp;
+      <a href="https://www.bhusalsamir.com.np" target="_blank">bhusalsamir.com.np</a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- SUMMARY                                                -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <p>
+      QA Automation Engineer with 2+ years of experience designing and building BDD automation frameworks
+      for web and mobile applications using Selenium, Appium, and Java. Currently pursuing an MS in
+      Information Systems at Dakota State University and expanding automation engineering skills with
+      Playwright, TypeScript, and API-driven testing.
+    </p>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- EXPERIENCE                                             -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- DSU -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Graduate Research Assistant</span>
+        <span class="entry-date">August 2025 – Present</span>
+      </div>
+      <div class="entry-header">
+        <span class="entry-company">Dakota State University</span>
+        <span class="entry-sub">Madison, SD</span>
+      </div>
+      <ul>
+        <li>Designed AI helpdesk assistant prototype for incident-resolution workflows.</li>
+        <li>Supported XAI healthcare research by maintaining literature matrix and evaluating Python analytics projects.</li>
+        <li>Assisted in rubric design and grading for analytics coursework.</li>
+      </ul>
+    </div>
+
+    <!-- Deerhold -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Software Engineer – Quality Assurance</span>
+        <span class="entry-date">November 2022 – August 2025</span>
+      </div>
+      <div class="entry-header">
+        <span class="entry-company">Deerhold Ltd.</span>
+        <span class="entry-sub">Kathmandu, Nepal</span>
+      </div>
+      <ul>
+        <li>Maintained BDD automation framework for Higi platforms (web + mobile) using Selenium, Appium, and Java, achieving 95% regression automation coverage, 90%+ pass rate, and reducing release cycle time by 30%.</li>
+        <li>Designed and maintained BDD test automation framework for InStride Health (mobile app – Android &amp; iOS) with 80% automation coverage using Selenium, Appium, and Java.</li>
+        <li>Executed API tests to prepare test data and preconditions for web and mobile automation execution.</li>
+        <li>Led QA process for legacy system rebuilds, achieving production readiness in 3 months for Wellness Portal.</li>
+        <li>Managed test planning, test case design, execution, defect tracking, and release documentation across web and mobile platforms.</li>
+        <li>Collaborated in agile ceremonies ensuring alignment with cross-functional teams for continuous improvement.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- EDUCATION                                              -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Master of Science, Information Systems</span>
+        <span class="entry-date">August 2025 – Present</span>
+      </div>
+      <div class="entry-sub">Dakota State University — Madison, SD</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Bachelor of Science, Computer Applications</span>
+        <span class="entry-date">October 2017 – October 2022</span>
+      </div>
+      <div class="entry-sub">Purbanchal University — Kathmandu, Nepal</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- PROJECTS                                               -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Python BDD Automation Framework</span>
+        <span class="project-tech">Python, Behave, Selenium, Page Object Model</span>
+      </div>
+      <ul>
+        <li>Developed a scalable Python Behave + Selenium POM framework with multi-browser and environment-driven execution.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Playwright BDD Automation Framework</span>
+        <span class="project-tech">TypeScript, Playwright, Cucumber, BrowserStack, Allure</span>
+      </div>
+      <ul>
+        <li>Developed a scalable Playwright BDD automation framework with UI/API testing, multi-browser execution, BrowserStack integration, and Allure reporting.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Full Stack RAG Chatbot</span>
+        <span class="project-tech">React, Python, FastAPI, LangChain, ChromaDB, OpenAI GPT-4o</span>
+      </div>
+      <ul>
+        <li>Developed a RAG chatbot for intelligent incident query resolution using internal documents and a vector-store retrieval pipeline.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- TECHNICAL SKILLS                                       -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tbody>
+        <tr>
+          <td>Languages</td>
+          <td>Java, Python, TypeScript, SQL, Gherkin</td>
+        </tr>
+        <tr>
+          <td>Test Automation</td>
+          <td>Playwright, Selenium, Appium, Cucumber, Behave, Page Object Model (POM)</td>
+        </tr>
+        <tr>
+          <td>Tools &amp; Platforms</td>
+          <td>Git, GitHub, JIRA, BrowserStack, Postman, Allure Reports</td>
+        </tr>
+        <tr>
+          <td>Testing Types</td>
+          <td>API Testing, Regression, Smoke, UAT, Mobile Testing (Android &amp; iOS)</td>
+        </tr>
+        <tr>
+          <td>Methodologies</td>
+          <td>Agile/Scrum, BDD, SDLC, STLC</td>
+        </tr>
+        <tr>
+          <td>AI / Frameworks</td>
+          <td>LangChain, FastAPI, React, RAG Architecture</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ACHIEVEMENTS                                           -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="section-title">Achievements / Awards</div>
+    <ul>
+      <li>Winner of Hult Prize Purbanchal University 2020 — global social entrepreneurship competition backed by the Clinton Global Initiative.</li>
+      <li>Published two freelance React Native mobile apps on the Google Play Store and Apple App Store (Meri Sangini, GEFONT).</li>
+    </ul>
+  </div>
+
+</body>
+</html>
