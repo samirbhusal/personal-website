@@ -66,7 +66,7 @@ export default function Hero() {
     interactivity: {
       events: {
         onHover: { enable: true, mode: 'grab' },
-        resize: true,
+        resize: false, // disable: on mobile the address bar hide/show fires resize → canvas reinit → looks like page reload
       },
       modes: { grab: { distance: 160, links: { opacity: 0.4 } } },
     },

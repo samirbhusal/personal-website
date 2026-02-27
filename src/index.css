@@ -41,7 +41,10 @@
 /* ─── Reset & Base ──────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+/* Smooth scroll only on devices where it won't conflict with mobile browser chrome behavior */
+@media (hover: hover) {
+  html { scroll-behavior: smooth; }
+}
 
 body {
   font-family: var(--font-sans);
@@ -49,6 +52,8 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   overflow-x: hidden;
+  overscroll-behavior-y: none;       /* prevent pull-to-refresh / bounce on Android Chrome */
+  -webkit-overflow-scrolling: touch; /* smooth momentum scroll on iOS */
   -webkit-font-smoothing: antialiased;
 }
 
