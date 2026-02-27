@@ -16,6 +16,8 @@
   position: absolute;
   inset: 0;
   z-index: 0;
+  pointer-events: none; /* critical: don't intercept touch/scroll events on mobile */
+  touch-action: none;   /* ensure canvas never captures touch gestures */
 }
 
 .hero-bg-gradient {

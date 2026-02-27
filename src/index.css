@@ -46,6 +46,10 @@
   html { scroll-behavior: smooth; }
 }
 
+html {
+  overscroll-behavior: none; /* prevent pull-to-refresh on html element (some browsers use this) */
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
