@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with React and Vite. Featu
 
 ## 🌐 Live Site
 
-[samirbhusal.github.io/personal-website](https://samirbhusal.github.io/personal-website) <!-- update if hosted elsewhere -->
+[bhusalsamir.com.np](https://bhusalsamir.com.np) <!-- update if hosted elsewhere -->
 
 ---
 
