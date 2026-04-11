@@ -23,7 +23,7 @@ const projects = [
     desc: 'Scalable Playwright BDD framework with UI/API testing, multi-browser execution, BrowserStack cloud integration, and Allure reporting.',
     stats: ['BrowserStack Cloud', 'UI + API Testing'],
     tech: ['TypeScript', 'Playwright', 'Cucumber', 'BrowserStack', 'Allure'],
-    github: '#',
+    github: 'https://github.com/samirbhusal/playwright-bdd-pom',
     demo: null,
   },
   {
