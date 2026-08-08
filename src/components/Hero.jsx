@@ -7,11 +7,12 @@ import { FiExternalLink, FiArrowRight } from 'react-icons/fi'
 import '../styles/Hero.css'
 
 const roles = [
-  'QA Automation Engineer',
-  'BDD Framework Developer',
-  'Selenium & Appium Expert',
+  'Software QA Engineer',
+  'SDET',
+  'BDD Framework Architect',
   'Playwright / TypeScript Engineer',
-  'API & Mobile Test Specialist',
+  'Selenium & Appium Expert',
+  'CI/CD Pipeline Engineer',
 ]
 
 export default function Hero() {
@@ -114,16 +115,17 @@ export default function Hero() {
           </h2>
 
           <p className="hero-desc">
-            QA Automation Engineer with 2+ years building BDD frameworks for web &amp; mobile apps using
-            Selenium, Appium &amp; Java. Currently pursuing an <em>MS in Information Systems</em> at Dakota State
-            University — expanding into Playwright, TypeScript &amp; AI-driven testing.
+            Performance-driven Software QA Engineer / SDET with ~3 years architecting scalable BDD test automation
+            frameworks for regulated healthcare &amp; biotech platforms. Proven expertise across Playwright, Selenium,
+            Appium, Java &amp; TypeScript — building CI/CD-integrated regression suites in Azure DevOps that cut
+            release cycle time by 30%.
           </p>
 
           <div className="hero-stats">
             {[
-              { n: '2+',  l: 'Years Exp.' },
+              { n: '~3',  l: 'Years Exp.' },
               { n: '95%', l: 'BDD Coverage' },
-              { n: '3',   l: 'Key Projects' },
+              { n: '30%', l: 'Faster Releases' },
               { n: '80%+',l: 'Mobile Coverage' },
             ].map((s, i) => (
               <div key={i} className="stat-item">

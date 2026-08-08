@@ -11,11 +11,11 @@
 
 .navbar.scrolled {
   padding: 12px 0;
-  background: rgba(10, 10, 15, 0.85);
+  background: rgba(26, 26, 34, 0.9);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-  box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
 }
 
 .nav-inner {
@@ -35,10 +35,10 @@
   color: var(--text-primary);
   transition: var(--transition);
 }
-.nav-logo:hover { color: var(--accent-cyan); }
+.nav-logo:hover { color: var(--accent); }
 
 .logo-bracket {
-  color: var(--accent-cyan);
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -65,7 +65,7 @@
   bottom: 4px; left: 50%;
   transform: translateX(-50%);
   width: 0; height: 2px;
-  background: var(--accent-cyan);
+  background: var(--accent);
   border-radius: 2px;
   transition: width 0.3s ease;
 }
@@ -102,7 +102,7 @@
   flex-direction: column;
   gap: 4px;
   padding: 16px 24px 20px;
-  background: rgba(10,10,15,0.95);
+  background: rgba(26, 26, 34, 0.95);
   backdrop-filter: blur(20px);
   border-top: 1px solid var(--border);
 }

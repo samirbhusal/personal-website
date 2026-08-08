@@ -41,14 +41,14 @@
 .skill-tab--active {
   color: #fff;
   border-color: transparent;
-  background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+  background: var(--accent);
 }
 
 .skill-tab-indicator {
   position: absolute;
   inset: 0;
   border-radius: 100px;
-  background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+  background: var(--accent);
   z-index: -1;
 }
 

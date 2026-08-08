@@ -3,15 +3,30 @@ import '../styles/Experience.css'
 
 const jobs = [
   {
+    role: 'Software QA Automation Intern',
+    company: 'Bio-Techne',
+    location: 'Minneapolis, MN',
+    period: 'Jun 2026 – Aug 2026',
+    current: true,
+    highlights: [
+      'Architected a multi-environment (Dev/QA/UAT) Playwright + TypeScript + Playwright-BDD framework using Page Object Model',
+      'Built Azure DevOps pipelines — smoke/PR validation and nightly regression — with PowerShell-triggered execution from Azure Classic Release Pipeline',
+      'Integrated Allure Report dashboards for stakeholder-facing test visibility',
+      'Synced automated test outcomes with Azure DevOps Test Plans in real time, replicating Xray-style traceability natively',
+      'Delivered a Playwright framework walkthrough to the full Bio-Techne IT organization (Denver + MN sites)',
+      'Built custom Claude Code skills using Playwright MCP to auto-draft Gherkin test scenarios from live UI',
+    ],
+    tech: ['Playwright', 'TypeScript', 'Azure DevOps', 'Playwright-BDD', 'Allure', 'Claude Code MCP'],
+  },
+  {
     role: 'Graduate Research Assistant',
     company: 'Dakota State University',
     location: 'Madison, SD',
-    period: 'Aug 2025 – Present',
-    current: true,
+    period: 'Aug 2025 – May 2026',
+    current: false,
     highlights: [
       'Designed an AI helpdesk assistant prototype for incident-resolution workflows',
-      'Supported XAI healthcare research by maintaining literature matrix',
-      'Evaluated Python analytics projects for research validation',
+      'Supported XAI healthcare research by maintaining literature matrix and evaluating Python analytics projects',
       'Assisted in rubric design and grading for analytics coursework',
     ],
     tech: ['Python', 'AI/ML', 'Research', 'Analytics'],
@@ -28,7 +43,7 @@ const jobs = [
       'Executed API tests to prepare test data and preconditions for web and mobile automation execution',
       'Led QA process for legacy system rebuilds — achieving production readiness in 3 months for Wellness Portal',
       'Managed test planning, test case design, execution, defect tracking, and release documentation across platforms',
-      'Collaborated in Agile ceremonies ensuring alignment with cross-functional teams for continuous improvement',
+      'Partnered in agile ceremonies ensuring alignment with cross-functional teams for continuous improvement',
     ],
     tech: ['Selenium', 'Appium', 'Java', 'BDD/Cucumber', 'Postman', 'JIRA'],
   },

@@ -7,18 +7,18 @@ import '../styles/About.css'
 const highlights = [
   {
     icon: <FiTarget size={22} />,
-    title: 'BDD-First Thinker',
-    desc: '95% regression coverage on Higi platforms using Behave/Cucumber frameworks',
+    title: 'BDD Framework Architect',
+    desc: '95% regression coverage on Higi platforms; built multi-environment Playwright-BDD framework at Bio-Techne',
   },
   {
     icon: <FiZap size={22} />,
-    title: 'Web & Mobile Automation',
-    desc: 'Selenium + Appium expertise across Android & iOS with 80%+ coverage',
+    title: 'CI/CD & Automation',
+    desc: 'Azure DevOps pipelines for smoke/PR and nightly regression — 30% faster release cycles',
   },
   {
     icon: <FiRefreshCw size={22} />,
     title: 'Always Learning',
-    desc: 'Currently pursuing MS in IS at DSU while expanding into Playwright & AI testing',
+    desc: 'MS in IS at DSU (graduating Dec 2026), expanding into AI-driven testing & Claude Code MCP skills',
   },
 ]
 
@@ -53,13 +53,13 @@ export default function About() {
           <FadeIn delay={0.1}>
             <div className="about-text">
               <p>
-                I'm a <strong>QA Automation Engineer</strong> with 2+ years of experience designing and building
-                BDD automation frameworks for web and mobile applications using <strong>Selenium, Appium, and Java</strong>.
+                I'm a <strong>Software QA Engineer / SDET</strong> with ~3 years of experience architecting scalable BDD test automation
+                frameworks for regulated healthcare and biotech platforms using <strong>Playwright, Selenium, Appium, Java, and TypeScript</strong>.
               </p>
               <p>
-                I'm currently pursuing an <strong>MS in Information Systems at Dakota State University</strong>{' '}
-                while working as a Graduate Research Assistant, designing AI helpdesk prototypes and supporting
-                XAI healthcare research — actively expanding into Playwright, TypeScript &amp; AI-driven testing.
+                Most recently, I interned at <strong>Bio-Techne</strong> where I architected a multi-environment Playwright-BDD
+                framework and built Azure DevOps CI/CD pipelines. I'm pursuing an <strong>MS in Information Systems at Dakota State
+                University</strong> (graduating Dec 2026) — actively exploring AI-driven testing and Claude Code MCP skills.
               </p>
 
               <div className="about-highlights">
@@ -120,22 +120,23 @@ export default function About() {
               </div>
               <pre className="code-body"><code>{`const engineer = {
   name: "Samir Bhusal",
-  role: "QA Automation Engineer",
+  role: "Software QA Engineer / SDET",
   location: "Madison, SD 🇺🇸",
   education: {
     ms: "Dakota State University",
     bs: "Purbanchal University"
   },
   expertise: [
-    "BDD Frameworks",
-    "Selenium + Appium",
+    "BDD Framework Architecture",
     "Playwright + TypeScript",
+    "Selenium + Appium",
+    "Azure DevOps CI/CD",
     "API & Mobile Testing"
   ],
-  currentlyLearning: [
-    "AI-driven testing",
-    "RAG systems",
-    "TypeScript / Playwright"
+  recentWork: [
+    "Bio-Techne QA Intern",
+    "Claude Code MCP Skills",
+    "RAG Chatbot"
   ],
   award: "Hult Prize Winner 2020 🏆"
 };`}</code></pre>

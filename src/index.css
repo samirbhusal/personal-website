@@ -1,41 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
 
 /* ─── CSS Variables ─────────────────────────────────────────────── */
 :root {
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #0f0f1a;
-  --bg-card: rgba(255, 255, 255, 0.04);
-  --bg-card-hover: rgba(255, 255, 255, 0.07);
-  --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(0, 212, 255, 0.4);
+  /* Backgrounds: Charcoal grays (lighter, softer dark mode) */
+  --bg-primary: #1a1a22;
+  --bg-secondary: #232329;
+  --bg-card: rgba(255, 255, 255, 0.08);
+  --bg-card-hover: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.12);
+  --border-hover: rgba(37, 99, 235, 0.6);
 
-  --accent-cyan: #00d4ff;
-  --accent-blue: #4361ee;
-  --accent-purple: #7b2ff7;
-  --accent-green: #06d6a0;
+  /* Single accent: Professional blue (not cyan neon) */
+  --accent: #2563eb;
+  --accent-dark: #1e40af;
+  --accent-light: #3b82f6;
 
-  --gradient-primary: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-purple) 100%);
-  --gradient-hero: radial-gradient(ellipse at 20% 50%, rgba(67,97,238,0.15) 0%, transparent 60%),
-                   radial-gradient(ellipse at 80% 20%, rgba(0,212,255,0.1) 0%, transparent 50%),
-                   radial-gradient(ellipse at 60% 80%, rgba(123,47,247,0.1) 0%, transparent 50%);
+  /* Text: Professional hierarchy */
+  --text-primary: #e8e8ed;
+  --text-secondary: #b0b0b5;
+  --text-muted: #808085;
 
-  --text-primary: #f0f0f8;
-  --text-secondary: #8b8fad;
-  --text-muted: #555870;
-
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Fonts: Minimal, portfolio-focused */
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-sans: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'Fira Code', 'Cascadia Code', monospace;
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
 
-  --shadow-card: 0 4px 24px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.05) inset;
-  --shadow-glow: 0 0 40px rgba(0, 212, 255, 0.15);
+  /* Subtle shadows: softer for lighter theme */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
 
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-fast: all 0.15s ease;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.12s ease;
 }
 
 /* ─── Reset & Base ──────────────────────────────────────────────── */
@@ -94,19 +94,19 @@ code { font-family: var(--font-mono); }
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.85rem;
-  color: var(--accent-cyan);
+  color: var(--accent);
   margin-bottom: 12px;
   letter-spacing: 0.5px;
+  font-weight: 500;
 }
 
 .section-title {
   font-size: clamp(2rem, 4vw, 2.8rem);
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--text-primary);
   margin-bottom: 16px;
+  letter-spacing: -0.3px;
 }
 
 .section-subtitle {
@@ -116,12 +116,10 @@ code { font-family: var(--font-mono); }
   margin: 0 auto;
 }
 
-/* ─── Gradient Text ─────────────────────────────────────────────── */
+/* ─── Accent Text ──────────────────────────────────────────────── */
 .gradient-text {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* ─── Buttons ────────────────────────────────────────────────────── */
@@ -141,24 +139,25 @@ code { font-family: var(--font-mono); }
 }
 
 .btn-primary {
-  background: var(--gradient-primary);
+  background: var(--accent);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(0, 212, 255, 0.25);
+  box-shadow: var(--shadow-md);
 }
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.4);
+  background: var(--accent-dark);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
 }
 
 .btn-outline {
   background: transparent;
-  color: var(--accent-cyan);
-  border: 1.5px solid rgba(0, 212, 255, 0.5);
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
 }
 .btn-outline:hover {
-  background: rgba(0, 212, 255, 0.1);
-  border-color: var(--accent-cyan);
-  transform: translateY(-2px);
+  background: rgba(37, 99, 235, 0.08);
+  border-color: var(--accent-light);
+  transform: translateY(-1px);
 }
 
 .btn-ghost {
@@ -173,21 +172,19 @@ code { font-family: var(--font-mono); }
 
 .btn-full { width: 100%; justify-content: center; }
 
-/* ─── Glassmorphism Card ────────────────────────────────────────── */
+/* ─── Subtle Card ──────────────────────────────────────────────── */
 .glass-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: var(--shadow-card);
+  box-shadow: var(--shadow-sm);
   transition: var(--transition);
 }
 .glass-card:hover {
   border-color: var(--border-hover);
   background: var(--bg-card-hover);
-  box-shadow: var(--shadow-card), var(--shadow-glow);
-  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
 }
 
 /* ─── Tech Pills ─────────────────────────────────────────────────── */
@@ -195,9 +192,9 @@ code { font-family: var(--font-mono); }
   display: inline-flex;
   align-items: center;
   padding: 4px 12px;
-  background: rgba(0, 212, 255, 0.08);
-  color: var(--accent-cyan);
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--accent);
+  border: 1px solid rgba(37, 99, 235, 0.25);
   border-radius: 100px;
   font-size: 0.78rem;
   font-weight: 500;

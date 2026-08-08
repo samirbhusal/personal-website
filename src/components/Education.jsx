@@ -6,12 +6,12 @@ const education = [
     degree: 'Master of Science, Information Systems',
     school: 'Dakota State University',
     location: 'Madison, SD',
-    period: 'Aug 2025 – Present',
+    period: 'Aug 2025 – Dec 2026',
     current: true,
     icon: '🎓',
     highlights: [
       'Graduate Research Assistant — AI helpdesk prototype & XAI healthcare research',
-      'Expanding skills in AI-driven testing, data analytics, and TypeScript/Playwright',
+      'Expanding skills in Playwright, Azure DevOps CI/CD, AI-driven testing, and Claude Code MCP',
     ],
   },
   {

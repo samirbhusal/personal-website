@@ -36,7 +36,7 @@
 
 .cert-issuer {
   font-size: 0.75rem;
-  color: var(--accent-cyan);
+  color: var(--accent);
   font-weight: 600;
   font-family: var(--font-mono);
 }

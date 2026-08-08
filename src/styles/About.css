@@ -14,7 +14,7 @@
   color: var(--text-secondary);
 }
 .about-text strong { color: var(--text-primary); font-weight: 600; }
-.about-text em { color: var(--accent-cyan); font-style: normal; font-weight: 500; }
+.about-text em { color: var(--accent); font-style: normal; font-weight: 500; }
 
 .about-highlights {
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .highlight-icon {
-  color: var(--accent-cyan);
+  color: var(--accent);
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -85,8 +85,8 @@
   margin-top: 20px;
   padding: 20px 22px;
   cursor: default;
-  border-color: rgba(0, 212, 255, 0.2);
-  background: rgba(0, 212, 255, 0.03);
+  border-color: rgba(37, 99, 235, 0.2);
+  background: rgba(37, 99, 235, 0.03);
 }
 
 .fp-top {
@@ -104,13 +104,13 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  color: var(--accent-green);
+  color: var(--accent);
 }
 
 .fp-dot {
   width: 7px; height: 7px;
   border-radius: 50%;
-  background: var(--accent-green);
+  background: var(--accent);
   animation: pulse-dot 1.5s ease-in-out infinite;
 }
 
@@ -128,7 +128,7 @@
   color: var(--text-muted);
   transition: color 0.2s;
 }
-.fp-links a:hover { color: var(--accent-cyan); }
+.fp-links a:hover { color: var(--accent); }
 
 .fp-title {
   font-size: 1rem;

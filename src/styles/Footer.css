@@ -30,7 +30,7 @@
   cursor: pointer;
   transition: var(--transition-fast);
 }
-.footer-link:hover { color: var(--accent-cyan); }
+.footer-link:hover { color: var(--accent); }
 
 .footer-social { display: flex; gap: 10px; }
 
@@ -46,9 +46,9 @@
   transition: var(--transition-fast);
 }
 .social-btn:hover {
-  background: rgba(0,212,255,0.1);
-  border-color: rgba(0,212,255,0.3);
-  color: var(--accent-cyan);
+  background: rgba(37, 99, 235, 0.1);
+  border-color: rgba(37, 99, 235, 0.3);
+  color: var(--accent);
   transform: translateY(-2px);
 }
 
@@ -71,7 +71,7 @@
 .footer-quote { font-style: italic; }
 
 .footer-site-link {
-  color: var(--accent-cyan);
+  color: var(--accent);
   transition: var(--transition-fast);
 }
 .footer-site-link:hover { opacity: 0.8; }

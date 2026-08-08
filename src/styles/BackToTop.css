@@ -4,7 +4,7 @@
   right: 32px;
   z-index: 999;
   width: 44px; height: 44px;
-  background: var(--gradient-primary);
+  background: var(--accent);
   border: none;
   border-radius: var(--radius-sm);
   color: #fff;
@@ -12,5 +12,11 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 4px 20px rgba(0,212,255,0.3);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-fast);
+}
+.back-to-top:hover {
+  background: var(--accent-dark);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
 }
